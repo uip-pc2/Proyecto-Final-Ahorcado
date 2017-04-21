@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane alignment="center" hgap="10" prefHeight="598.0" prefWidth="418.0" vgap="10" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ahorcado.Inicio">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <Pane prefHeight="598.0" prefWidth="418.0">
+         <children>
+            <Button fx:id="bt_salir" layoutX="131.0" layoutY="487.0" mnemonicParsing="false" onAction="#salir" text="SALIR" />
+            <Button fx:id="bt_continuar" layoutX="225.0" layoutY="487.0" mnemonicParsing="false" onAction="#continuar" text="CONTINUAR" />
+            <ImageView fitHeight="401.0" fitWidth="327.0" layoutX="46.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@uip.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="86.0" layoutY="141.0" prefHeight="25.0" prefWidth="258.0" text="PROYECTO FINALDE PROGRAMACION II" />
+            <Label layoutX="154.0" layoutY="179.0" text="INTEGRANTES:" />
+            <Label layoutX="145.0" layoutY="205.0" text="GRIMALDO CASTRO " />
+            <Label layoutX="147.0" layoutY="235.0" text="SEBASTIAN TORRES" />
+            <Label layoutX="145.0" layoutY="267.0" text="MIGUEL DELGADO" />
+            <Label layoutX="149.0" layoutY="299.0" text="ALVARO HERNANDEZ" />
+            <Label layoutX="150.0" layoutY="325.0" text="RAFAEL ABREGO" />
+            <Label layoutX="149.0" layoutY="351.0" text="ALEXANDER RODRIGUEZ" />
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="92.0" layoutY="410.0" prefHeight="32.0" prefWidth="234.0" text="EL AHORCADO" underline="true">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+          </children>
+       </Pane>
+    </children>
+ </GridPane>
